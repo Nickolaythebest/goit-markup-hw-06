@@ -52,6 +52,7 @@ img{
     .container{
         max-width: 1158px;
         padding: 0 15px;
+        margin: 0 auto;
 }  
 }
 /*============Header====================*/
@@ -730,9 +731,6 @@ img{
     
 
 }
-.container-footer-logo{
-    
-}
 .container-footer-socitem{
     text-align: center;
 }
@@ -831,8 +829,11 @@ img{
 @media  screen and (min-width:1158px){
     .footer{
         margin: 0 auto;
-        width: 1440px;
-        padding: 100px 158px;
+        width: 1280px;
+        padding: 100px 0px;
+}
+.container{
+    margin: 0 auto;
 }
     .footer-logo{
     display: inline-block;
@@ -840,10 +841,11 @@ img{
     margin-right: 0px;
 }
 .double-container{
-    max-width: 1125px;
+    width: 1155px;
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0px;
+    margin: 0 auto;
 }
 .footer-text{
     font-size:16px;
@@ -983,16 +985,15 @@ img{
 .checkbox{
     margin-bottom: 24px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.modal-check {
-    
-}
 .modal-check-text {
    display: flex;
    align-items: center;
+   justify-content: center;
    flex-direction: row;
     font-weight: 400;
     font-size: 12px;
@@ -1007,7 +1008,9 @@ img{
     margin-top: 0px;
 }
 .checkbox-click {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     fill: transparent;
     width: 16px;
     height: 16px;
