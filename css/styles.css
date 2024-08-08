@@ -339,7 +339,8 @@ img{
 .button{
             margin: 0 auto;
             max-width: 320px;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+                              url(../images/Dark-bg-mob.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -351,7 +352,8 @@ img{
         (min-resolution: 2dpx), 
         (min-resolution: 192dpi) {
             .button{
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob-2x.jpg);
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+                                  url(../images/Dark-bg-mob-2x.jpg);
             }
         }
 .main-title{
